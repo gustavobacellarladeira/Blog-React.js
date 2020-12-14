@@ -1,30 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#  <p align=center> Blog with Next.js 👋</p> 
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
+![Test Automation](./github/gif_blog.gif)
+
+
+
+
+<hr/>
+
+<br>
+<br>
+
+## 🔍 About
+
+<p>This is not a big project but it's important becose this project make me learn de basics and fall in love with React.  </p>
+<p>it's a simple app made with next.js a realy  good  flamework, in thi project I fetch the api of the github and repoitore for more information please lauch demo.</p>
+
+<br>
+<br>
+
+## 🚀 Demo
+Just dowload and  run the following command at the root:
+
+```sh
+on work!
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<br>
+<br>
 
-## Learn More
+## ✨ Technologies used on this project
 
-To learn more about Next.js, take a look at the following resources:
+<ul>
+    <li> React
+    <li> Next.js
+    <li> Styled-components
+    <li> Html / Css
+</ul>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<br>
+<br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 📝 License
 
-## Deploy on Vercel
+This project is [MIT](https://github.com/gustavobacellarladeira/Blog-React.js/blob/master/LICENSE) licensed.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<hr/>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Made with <span style = "color: red">♥</span> by Gustavo Bacellar 👋 <a href="https://www.linkedin.com/in/gustavo-bacellar/?msgControlName=reply_to_sender&msgConversationId=6714883939833561088&msgOverlay=true">Get in touch!</a>

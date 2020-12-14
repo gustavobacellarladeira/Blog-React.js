@@ -1,10 +1,10 @@
 import React from 'react'
-import styled from "styled-components"
 import Link from 'next/link'
 
 
 export default function Home(props) {
 console.log(props)
+console.log(props.props)
   return (
     <div>
       <header className="headerContainer">
@@ -15,31 +15,38 @@ console.log(props)
         </a>
       </Link>
       </header>
-      <section className="postsContainer">
-        <article className="postsContainer__post">
-        <h2>Posts</h2>
-        <a href='/'>
-          titulo do post
-        </a>
-        <p>
-          Resumo do post
-        </p>
-        </article>
-      </section>
+
+     <section className="postsContainer">
+        <h2>Repossitorios</h2>
+        {
+          props.props.map((project)=>{
+            return (
+              <article key={project.repo} className="postsContainer__post">
+                <a href="/">
+                  {project.repo}
+                </a>
+                <p>
+                  {
+                    project.description
+                  }
+                </p>
+              </article>
+            )
+          })
+        }
+
+       
+      </section> 
     </div>
   )
 }
 
 
 
-export async function getInitialProps() {
+Home.getInitialProps = async (ctx) => {
 
-
-const repos = await fetch('https://gh-pinned-repos.now.sh/?username=gustavobacellarladeira').then(res => res.json())
-   
-  return {
-    props: {
-      repos,
-    }
-  }
+const res = await fetch('https://gh-pinned-repos.now.sh/?username=gustavobacellarladeira')
+const json = await res.json()
+return { props: json}
+    
 }

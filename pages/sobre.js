@@ -19,6 +19,9 @@ const sobre = () => {
                     Link para home!
                 </a>
             </Link>
+            <p>
+                Esta pagina esta vazia !
+            </p>
         </div>
     )
 }
