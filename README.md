@@ -21,11 +21,12 @@
 <br>
 
 ## 🚀 Demo
-Just dowload and  run the following command at the root:
+Just click and go to the page:
 
-```sh
-on work!
-```
+
+
+[Versel ](https://blog-react-js-ff2ixrui5.vercel.app/)
+
 
 
 <br>
