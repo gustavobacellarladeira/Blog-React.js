@@ -25,7 +25,7 @@ Just click and go to the page:
 
 
 
-[Versel ](https://blog-react-js-ff2ixrui5.vercel.app/)
+[Versel ](https://blog-react-js-ptwbe49xa.vercel.app/sobre)
 
 
 
