@@ -3,8 +3,7 @@ import Link from 'next/link'
 
 
 export default function Home(props) {
-console.log(props)
-console.log(props.props)
+
   return (
     <div>
       <header className="headerContainer">
