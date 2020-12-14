@@ -12,7 +12,7 @@ const sobre = () => {
         <div>
             <header>
                 <Title>Pagina sobre</Title>
-                <img src="..." alt="..." />
+                <img src="https://cdn.pixabay.com/photo/2015/06/08/15/02/pug-801826_960_720.jpg" alt="dog" />
             </header>
             <Link href="/">
                 <a>
